@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "__comment": "default",
+        "layer0": "nuka_refreshments:item/nuka_bottle_drinking"
+    }
+}

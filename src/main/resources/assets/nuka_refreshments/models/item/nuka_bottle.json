@@ -2,5 +2,13 @@
     "parent": "item/generated",
     "textures": {
         "layer0": "nuka_refreshments:item/nuka_bottle"
-    }
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "nuka_refreshments:drinking": 1
+            },
+            "model": "nuka_refreshments:item/nuka_bottle_drinking"
+        }
+    ]
 }

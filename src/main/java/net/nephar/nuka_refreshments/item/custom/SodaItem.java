@@ -10,8 +10,8 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.nephar.nuka_refreshments.item.ModItems;
 
-public class SodaItems extends Item {
-    public SodaItems(Properties pProperties) {
+public class SodaItem extends Item {
+    public SodaItem(Properties pProperties) {
         super(pProperties);
     }
 
@@ -42,6 +42,8 @@ public class SodaItems extends Item {
     public SoundEvent getEatingSound() {
         return SoundEvents.GENERIC_DRINK;
     }
+    
+
 
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pHand) {
         return ItemUtils.startUsingInstantly(pLevel, pPlayer, pHand);
